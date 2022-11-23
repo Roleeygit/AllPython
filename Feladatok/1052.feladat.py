@@ -1,0 +1,23 @@
+# File: main.px
+# Author: Juhász Roland
+# Copyright: 2021, Juhász Roland 
+# Group: Szoft I N
+# Date: 2021-11-04
+# Github: https://github.com/jani/
+# Licenc: GNU GPL
+
+print("Juhász Roland 2021-11-04 Szoft I N")
+print("Feladat 1001")
+print("Kicsiből nagybetű")
+print("--------------------------------------")
+
+
+a = str(input("Szám1:"))
+b = str(input("Szám2:"))
+szam1 = len(a) 
+szam2 = len(b)
+
+if szam1 > szam2:
+    print('Szám1 a nagyobb')
+else: 
+    print('Szám2 a nagyobb')
